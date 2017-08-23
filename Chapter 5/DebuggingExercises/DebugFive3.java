@@ -17,13 +17,13 @@ public class DebugFive3
       Scanner input = new Scanner(System.in);
       System.out.println("Please enter item number");
       item = input.nextInt();
-      if(item <= LOW)
+      if(item < LOW)
          output = "Item number too low";
       else
-        if(item >= HIGH)
-          output = "Item number too low";
+        if(item > HIGH)
+          output = "Item number too High";
         else
-          if(item >= HIGH)
+          if(item < CUTOFF)
              output = "Valid - in Automotive Department";
           else
              output = "Valid - Item in Housewares Department";
