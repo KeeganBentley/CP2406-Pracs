@@ -16,7 +16,7 @@ public class CountByAnything {
                     num = num + count;
                 }
             }
-            System.out.print("\n");
+            System.out.println();
         }
     }
 }
