@@ -21,7 +21,7 @@ public class DebugSeven2
       length = str.length();
       for(x = 0; x <= length; ++x)
       {
-         if(str.charAt(x))
+         if(str.charAt(x).equals(" "))
          {
              partStr = str.substring(x, lastSpace + 1);     
              num = Integer.parseInt(partStr);
