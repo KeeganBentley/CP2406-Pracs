@@ -14,7 +14,7 @@ public class StringBuilderDemo
       System.out.println("Capacity of addressString is " +
          addStringCapacity);
       nameString.setLength(20);
-      System.out.println("The name is " + nameString + "end");
+      System.out.println("The name is " + nameString + " end");
       addressString.setLength(20);
       System.out.println("The address is " + addressString);
    }

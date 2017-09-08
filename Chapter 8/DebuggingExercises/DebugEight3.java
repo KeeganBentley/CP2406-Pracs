@@ -1,4 +1,4 @@
-/*/ Application looks up home price
+// Application looks up home price
 // for different floor plans
 // allows upper or lowercase data entry
 import javax.swing.*;
@@ -12,14 +12,14 @@ public class DebugEight3
       char plan;
       int x, fp = 99;
       String prompt = "Please select a floor plan\n" +
-          "Our floorPlanss are:\n" + "A - Augusta, a ranch\n" +
+          "Our floorPlans are:\n" + "A - Augusta, a ranch\n" +
           "B - Brittany, a split level\n" +
           "C - Colonial, a two-story\n" +
-          "Enter floorPlans letter";
+          "Enter floor plans' letter";
       entry = JOptionPane.showInputDialog(null, prompt);
       plan = entry.charAt(0);
-      for(x = 0; x <= floorPlans.length; ++x){
-	    if(plan.equals(floorPlans[x]))
+      for(x = 0; x < floorPlans.length; ++x){
+	    if(plan == floorPlans[x])
             fp = x;
       }
       if(fp == 99)
@@ -35,4 +35,4 @@ public class DebugEight3
       }
    }
 }
-*/
+
