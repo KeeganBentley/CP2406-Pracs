@@ -5,13 +5,13 @@ public class DebugCustomer
     protected double creditLimit;
     public DebugCustomer(int id, String name, double credit)
     {
-       idNumber = id;
+       this.idNumber = id;
        this.name = name;
-       credit = credit;
+       this.creditLimit = credit;
     }
     public void display()
     {
        System.out.println("Customer #" + idNumber +
-          " Name: " +  name + "\nCredit limit $" + creditLimit)
+          " Name: " +  name + "\nCredit limit $" + creditLimit);
     }
 }
