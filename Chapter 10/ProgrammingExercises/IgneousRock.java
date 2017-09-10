@@ -1,5 +1,4 @@
 public class IgneousRock extends Rock{
-    protected String description;
 
     public IgneousRock(int numSamples, double weight){
         super(numSamples, weight);

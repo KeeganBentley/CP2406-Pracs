@@ -1,5 +1,4 @@
 public class MetamorphicRock extends Rock{
-    protected String description;
 
     MetamorphicRock(int numSamples, double weight){
         super(numSamples, weight);

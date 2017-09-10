@@ -1,5 +1,4 @@
 public class SedimentaryRock extends Rock{
-    protected String description;
 
     SedimentaryRock(int numSamples, double weight){
         super(numSamples, weight);
